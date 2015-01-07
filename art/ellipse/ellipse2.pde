@@ -1,7 +1,7 @@
 size (640,460);
-for (int i =0 ; i < 30 ; i = i + 1)
+for (int i =0 ; i < 200 ; i = i + 1)
 {
-ellipse(100, 100, 50, i);
+ellipse(100, 100, i, i);
 }
 
 println("Hello People");
