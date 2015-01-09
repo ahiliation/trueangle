@@ -23,8 +23,9 @@
 
 <?php wp_footer(); ?>
 
+<div style="text-align:center">
 Trueangle Project comes with ABSOLUTELY NO WARRANTY, to the extent permitted by applicable law.
-
+</div>
 
 </body>
 </html>
