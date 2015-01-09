@@ -20,12 +20,12 @@
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
+<div style="text-align:center;font-size:80%">
+Trueangle Project comes with ABSOLUTELY NO WARRANTY, to the extent permitted by applicable law.
+</div>
 
 <?php wp_footer(); ?>
 
-<div style="text-align:center">
-Trueangle Project comes with ABSOLUTELY NO WARRANTY, to the extent permitted by applicable law.
-</div>
 
 </body>
 </html>
