@@ -1,54 +1,71 @@
-// The message to be displayed
-String message = "Happy Birthday Nimisha";
-
 PFont f;
-// The radius of a circle
-float r = 100;
+String message = "Happy Birthday Nimisha";
+// An array of Letter objects
+Letter[] letters;
 
 void setup() {
-  size(400, 400);
-  f = createFont("Georgia",30,true);
+  size(360, 200);
+  // Load the font
+  f = createFont("Arial",20,true);
   textFont(f);
-  // The text must be centered!
-  textAlign(CENTER);
-  smooth();
-}
-
-void draw() {
-  background(255);
-
-  // Start in the center and draw the circle
-  translate(width / 2, height / 2);
-  noFill();
-  stroke(0);
-  ellipse(mouseX,mouseY, r*2, r*2);
-
-  // We must keep track of our position along the curve
-  float arclength = 0;
-
-  // For every box
-  for (int i = 0; i < message.length(); i++)
-  {
-    // Instead of a constant width, we check the width of each character.
-    char currentChar = message.charAt(i);
-    float w = textWidth(currentChar);
-
-    // Each box is centered so we move half the width
-    arclength += w/2;
-    // Angle in radians is the arclength divided by the radius
-    // Starting on the left side of the circle by adding PI
-    float theta = PI + arclength / r;    
-
-    pushMatrix();
-    // Polar to cartesian coordinate conversion
-    translate(r*cos(theta), r*sin(theta));
-    // Rotate the box
-    rotate(theta+PI/2); // rotation is offset by 90 degrees
-    // Display the character
-    fill(0);
-    text(currentChar,0,0);
-    popMatrix();
-    // Move halfway again
-    arclength += w/2;
+  
+  // Create the array the same size as the String
+  letters = new Letter[message.length()];
+  // Initialize Letters at the correct x location
+  int x = 16;
+  for (int i = 0; i < message.length(); i++) {
+    letters[i] = new Letter(x,100,message.charAt(i)); 
+    x += textWidth(message.charAt(i));
   }
 }
+
+void draw() { 
+  background(255);
+  for (int i = 0; i < letters.length; i++) {
+    // Display all letters
+    letters[i].display();
+    
+    // If the mouse is pressed the letters shake
+    // If not, they return to their original location
+    if (mousePressed) {
+      letters[i].shake();
+    } else {
+      letters[i].home();
+    }
+  }
+}
+
+// A class to describe a single Letter
+class Letter {
+  char letter;
+  // The object knows its original "home" location
+  float homex,homey;
+  // As well as its current location
+  float x,y;
+
+  Letter (float x_, float y_, char letter_) {
+    homex = x = x_;
+    homey = y = y_;
+    letter = letter_; 
+  }
+
+  // Display the letter
+  void display() {
+    fill(0);
+    textAlign(LEFT);
+    text(letter,x,y);
+  }
+
+  // Move the letter randomly
+  void shake() {
+    x += random(-2,2);
+    y += random(-2,2);
+  }
+
+  // Return the letter home
+  void home() {
+    x = homex;
+    y = homey; 
+  }
+}
+
