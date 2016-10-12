@@ -49,8 +49,8 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div style="background-color:floralwhite" class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li><a style="font-family: 'Titillium Web', sans-serif;font-size:15px" href="http://www.beautifulwork.org/"> <span style="font-weight:700;font-size:15px" aria-hidden="true"></span><b>T</b></a></li>
-        <li><a style="font-family: 'Titillium Web', sans-serif;font-size:14px" <!-- href="http://www.beautifulwork.org/web/beautifulwork-project-about.php"-->  ><span  style="font-weight:700;font-size:15px" class="glyphicon  glyphicon-heart-empty" aria-hidden="true"></span> ABOUT</a></li>
+        <li><a style="font-family: 'Titillium Web', sans-serif;font-size:15px" <!-- href="http://www.beautifulwork.org/" --> > <span style="font-weight:700;font-size:15px" aria-hidden="true"></span><b>T</b></a></li>
+        <li><a style="font-family: 'Titillium Web', sans-serif;font-size:14px" <!-- href="http://www.beautifulwork.org/web/beautifulwork-project-about.php" --> ><span  style="font-weight:700;font-size:15px" class="glyphicon  glyphicon-heart-empty" aria-hidden="true"></span> ABOUT</a></li>
         <li class="dropdown">
           <a style="font-family: 'Titillium Web', sans-serif;font-size:14px" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span style="font-weight:700;font-size:17px" class="glyphicon  glyphicon-education" aria-hidden="true"></span> ACADEMIC<span class="caret"></span></a>
           <ul class="dropdown-menu">
