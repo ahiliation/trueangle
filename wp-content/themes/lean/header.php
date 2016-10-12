@@ -52,15 +52,15 @@
         <li><a style="font-family: 'Titillium Web', sans-serif;font-size:15px"  href="" > <span style="font-weight:700;font-size:15px" aria-hidden="true"></span><b>T</b></a></li>
         <li><a style="font-family: 'Titillium Web', sans-serif;font-size:14px"  href=""><span  style="font-weight:700;font-size:15px" class="glyphicon  glyphicon-heart-empty" aria-hidden="true"></span> ABOUT</a></li>
         <li class="dropdown">
-          <a style="font-family: 'Titillium Web', sans-serif;font-size:14px" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span style="font-weight:700;font-size:17px" class="glyphicon  glyphicon-education" aria-hidden="true"></span> ACADEMIC<span class="caret"></span></a>
+          <a style="font-family: 'Titillium Web', sans-serif;font-size:14px" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span style="font-weight:700;font-size:17px" class="glyphicon  glyphicon-education" aria-hidden="true"></span>DESIGN<span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="http://www.beautifulwork.org/code">DEBIAN GNU AND LINUX</a></li>
-            <li><a href="http://www.beautifulwork.org/sorting">ALGORITHM</a></li>
-            <li><a href="http://www.beautifulwork.org/lib">LIBRARY</a></li>
-            <li><a href="http://www.beautifulwork.org/data">PROGRAMMING LANGUAGES</a></li>
+            <li><a href="">WEB</a></li>
+            <li><a href="">GRAPHIC</a></li>
+            <li><a href="">INTERACTION</a></li>
+            <li><a href="">GAME</a></li>
             <!-- <li><a href="http://www.beautifulwork.org/ui">USER INTERFACE</a></li> -->
             <!-- <li role="separator" class="divider"></li> -->
-            <li><a href="http://www.beautifulwork.org/reader">READER</a></li>
+           <!- <li><a href="">READER</a></li> ->
           </ul>
         </li>
       </ul>
@@ -77,7 +77,7 @@
         <li><a style="font-family: 'Titillium Web', sans-serif;font-size:14px"  href=""><span style="font-weight:700;font-size:17px"  class="glyphicon  glyphicon-plane" aria-hidden="tr\
 ue"></span> CONTRIBUTE</a></li>
         <li class="dropdown">
-          <a style="font-family: 'Titillium Web', sans-serif;font-size:14px" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span style="font-weight:700;font-size:15px" class="glyphicon  glyphicon-book" aria-hidden="true"></span> DESIGN <span class="caret"></span></a>
+          <a style="font-family: 'Titillium Web', sans-serif;font-size:14px" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span style="font-weight:700;font-size:15px" class="glyphicon  glyphicon-book" aria-hidden="true"></span> TRUEANGLE  DESIGN <span class="caret"></span></a>
           <ul class="dropdown-menu">
                 <li><a href="http://www.trueangle.org/plan">DESIGN DOCUMENTS</a></li>
     <!--        <li role="separator" class="divider"></li> -->
