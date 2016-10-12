@@ -47,7 +47,7 @@
 <!-- style="background-color:#fced4c"  typical yellow color -->
 
     <!-- Collect the nav links, forms, and other content for toggling -->
-    <div style="background-color:aliceblue" class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    <div style="background-color:floralwhite" class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li><a style="font-family: 'Titillium Web', sans-serif;font-size:15px" href="http://www.beautifulwork.org/"> <span style="font-weight:700;font-size:15px" aria-hidden="true"></span><b>B</b></a></li>
         <li><a style="font-family: 'Titillium Web', sans-serif;font-size:14px" href="http://www.beautifulwork.org/web/beautifulwork-project-about.php"><span  style="font-weight:700;font-size:15px" class="glyphicon  glyphicon-heart-empty" aria-hidden="true"></span> ABOUT</a></li>
