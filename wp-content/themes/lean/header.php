@@ -52,7 +52,7 @@
         <li><a style="font-family: 'Titillium Web', sans-serif;font-size:15px"  href="" > <span style="font-weight:700;font-size:15px" aria-hidden="true"></span><b>T</b></a></li>
         <li><a style="font-family: 'Titillium Web', sans-serif;font-size:14px"  href=""><span  style="font-weight:700;font-size:15px" class="glyphicon  glyphicon-heart-empty" aria-hidden="true"></span> ABOUT</a></li>
         <li class="dropdown">
-          <a style="font-family: 'Titillium Web', sans-serif;font-size:14px" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span style="font-weight:700;font-size:17px" class="glyphicon  glyphicon-blackboard" aria-hidden="true"></span>DESIGN<span class="caret"></span></a>
+          <a style="font-family: 'Titillium Web', sans-serif;font-size:14px" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span style="font-weight:700;font-size:17px" class="glyphicon  glyphicon-blackboard" aria-hidden="true"></span> DESIGN<span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a href="">WEB</a></li>
             <li><a href="">GRAPHIC</a></li>
