@@ -1,0 +1,34 @@
+
+	</div><!-- #main -->
+
+	<div id="footer">
+		<div class="footer-column">
+			<?php dynamic_sidebar('footer-column-a'); ?>
+		</div>
+		<div class="footer-column">
+			<?php dynamic_sidebar('footer-column-b'); ?>
+		</div>
+		<div class="footer-column">
+			<?php dynamic_sidebar('footer-column-c'); ?>
+		</div>
+		<div>
+		<center>
+		Copyright &copy; 2009,&nbsp; 2010,&nbsp; 2011,&nbsp; 2012,&nbsp; 2013,&nbsp;2014,&nbsp;2015 &nbsp; &nbsp; BeautifulWork
+		 Project &nbsp;&nbsp; e-mail:&nbsp; ahiliation@yahoo.co.in
+		 </center>
+		 </div>
+		 <div>
+		 <center style="color:#000000;font-family:'Inika',serif">
+		 BeautifulWork Project comes with ABSOLUTELY NO WARRANTY, to the extent
+		 permitted by applicable law.
+		 </center>
+		 </div>
+
+
+
+	</div>
+</div><!-- #wrap -->
+<?php wp_footer();?>
+
+</body>
+</html>

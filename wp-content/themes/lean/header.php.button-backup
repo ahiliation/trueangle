@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html <?php language_attributes(); ?>>
+
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<link rel="stylesheet" type="text/css" href="http://www.beautifulwork.org/wp-content/themes/lean/static/css/owl.carousel.css" media="screen">
+<link rel="stylesheet" type="text/css" href="http://www.beautifulwork.org/wp-content/themes/lean/static/css/owl.theme.css" media="screen">
+<link rel="stylesheet" type="text/css" href="http://www.beautifulwork.org/wp-content/themes/lean/static/css/icomoon.css" media="screen">
+
+<link rel="stylesheet" type="text/css" href="http://www.beautifulwork.org/wp-content/themes/lean/static/css/screen.css" media="screen">
+
+<link rel="stylesheet" type="text/css" href="http://www.beautifulwork.org/wp-content/themes/lean/static/css/futura-mock.css" media="screen">
+<link href='http://fonts.googleapis.com/css?family=Raleway:500' rel='stylesheet' type='text/css'>
+<!-- <link href='http://www.beautifulwork.org/wp-content/themes/lean/static/css/sticky-footer-navbar.css' rel='stylesheet' type='text/css'> -->
+	<title><?php wp_title('&laquo;', true, 'right'); bloginfo('name'); ?></title>
+	<?php $theme_url = get_template_directory_uri();?>
+
+	<?php wp_head();?>
+	<div style="margin-left:2%;margin-top:2%">
+	<!-- Standard button -->
+	<button style="font-family: 'Raleway', sans-serif" onclick="location.href='http://www.beautifulwork.org/'" type="button" class="btn btn-default"> <span class="glyphicon  glyphicon-home" aria-hidden="true"></span>  HOME</button>
+
+	<!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+	<button style="font-family: 'Raleway', sans-serif" onclick="location.href='http://www.beautifulwork.org/web/beautifulwork-project-about.php'" type="button" class="btn btn-primary"><span class="glyphicon  glyphicon-heart" aria-hidden="true"></span>  ABOUT</button>
+
+	<!-- Indicates a successful or positive action -->
+	<!-- <button type="button" class="btn btn-success">DOWNLOAD</button> -->
+
+	<!-- Single button -->
+	<div class="btn-group">
+	  <button style="font-family: 'Raleway', sans-serif" type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	    BASIC <span class="caret"></span>
+	  </button>
+	  <ul  class="dropdown-menu">
+	    <li><a style="font-family: 'Raleway', sans-serif" href="http://www.beautifulwork.org/code">DEBIAN GNU LINUX</a></li>
+	    <li><a style="font-family: 'Raleway', sans-serif" href="http://www.beautifulwork.org/sorting">ALGORITHM</a></li>
+	    <li><a style="font-family: 'Raleway', sans-serif" href="http://www.beautifulwork.org/lib">LIBRARY</a></li>
+	<li><a style="font-family: 'Raleway', sans-serif" href="http://www.beautifulwork.org/data">DATA</a></li>
+	    <!-- <li role="separator" class="divider"></li> -->
+	    <li><a style="font-family: 'Raleway', sans-serif" href="http://www.beautifulwork.org/reader">READER</a></li>
+	  </ul>
+	  </div>
+
+	
+
+	<!-- Contextual button for informational alert messages -->
+	<button style="font-family: 'Raleway', sans-serif" onclick="location.href='http://www.beautifulwork.org/book'" type="button" class="btn btn-primary"><span class="glyphicon  glyphicon-book" aria-hidden="true"></span>  BOOK</button>
+
+	<!-- Indicates caution should be taken with this action -->
+	<button  style="font-family: 'Raleway', sans-serif" onclick="location.href='http://www.beautifulwork.org/plan'" type="button" class="btn btn-primary"><span class="glyphicon  glyphicon-road" aria-hidden="true"></span>  PLAN</button>
+
+	<!-- Indicates a dangerous or potentially negative action -->
+	<button style="font-family: 'Raleway', sans-serif" onclick="location.href='http://www.beautifulwork.org/web/beautifulwork-project-contribute.php'" type="button" class="btn btn-primary"><span class="glyphicon  glyphicon-upload" aria-hidden="true"></span>  CONTRIBUTE</button>
+
+	<!-- Deemphasize a button by making it look like a link while maintaining button behavior -->
+	<!-- <button type="button" class="btn btn-link">Link</button> -->
+	</div>	
+
+
+</head>
+
+
+<body <?php body_class('Site'); ?>>
+
+<div id="header">
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+	<div class="cnt">
+		<a id="brand" href="<?php echo home_url();?>"><?php echo bloginfo('name');?></a>
+	</div>
+-->
+
+</div>
+		
+
+
+<div id="wrap">
+<div style="width: 100%;">
+<div style="float:left; width: 50%;margin-left:1%">
+	<div id="main">
+

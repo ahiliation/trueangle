@@ -1,0 +1,141 @@
+<?php get_header(); ?>
+
+<header class="site-header container"><nav role="navigation" class="navbar navbar-default site-nav"><div id="site-navigation" class="collapse navbar-collapse pull-right"><ul class="nav nav-pills navbar-nav"><li><a href="" title=""></a></li><li><a href="/download/" title="Download"></a></li><li><a href="/events/" title="Events"></a></li><li><a href="/blog/" title="Blog"></a></li><li><a href="/support/" title="Support"></a></li><li><a href="http://www.beautifulwork.org/" title="Home Page">HOME</a></li><li><a href="" title="copy">COPY</a></li><li><a href="/careers/" title="Careers">CONTRIBUTE</a></li><li><a href="/about/" title="About">ABOUT</a></li></ul></div></nav></header>
+
+<script>var $ = jQuery.noConflict();</script>
+
+<script type="text/javascript" src="http://www.beautifulwork.org/wp-content/themes/lean/static/js/paper.js"></script>
+
+
+<script type="text/paperscript" canvas="myCanvas">
+
+
+var mousePoint = view.center;
+var amount = 15;
+var colors = ['white smoke', 'white', 'white smoke', 'white'];
+
+for (var i = 0; i < amount; i++) {
+		    var rect = new Rectangle([0, 0], [6, 6 ]);
+		    rect.center = mousePoint;
+		    var path = new Path.Rectangle(rect, 6);
+		    path.fillColor = colors[i % 4];
+		    var scale = (1 - i / amount) * 20;
+		    path.scale(scale);
+}
+
+
+
+function onMouseMove(event) {
+		   /*  mousePoint = event.point; */
+  }
+
+
+
+var children = project.activeLayer.children;
+function onFrame(event) {
+		    for (var i = 0, l = children.length; i < l; i++) {
+							     var item = children[i];
+							     var delta = (mousePoint - item.position) / (i + 5); 
+							     item.rotate(Math.sin((event.count + i) / 10) * 30);
+							     if (delta.length > 0.1)
+		    item.position += delta;
+		    }
+}
+
+</script>
+
+<br></br>
+<center style="font-size:200%;font-family:'futura_ltlight'">ACQUIRING KNOWLEDGE WITH EXAMPLES</center><br></br>
+<center><a style="font-size:200%;font-family:'Lora'" href="https://github.com/ahiliation/beautifulwork/tree/master/backup"><u>DOWNLOAD DATABASE</u></a></center>
+
+
+<?php
+
+        if ( is_home() ) {
+        
+echo '<center>';
+echo '<canvas  id="myCanvas" hidpi="off" resize></canvas>';
+echo '</center>';
+
+        }
+        ?>
+
+
+<div style="font-size:260%;font-family:'futura_ltlight'">
+Posts
+</div>
+
+
+	<div id="content">
+<?php if(have_posts()): while(have_posts()): the_post(); 
+	$nail = get_the_post_thumbnail( get_the_ID(), '-lean-full');?>
+	
+
+<div id="post-<?php the_ID();?>" <?php echo post_class();?>>
+	<?php if($nail): ?>
+<div id="thumbnail-<?php the_ID();?>" class="featured-image"><a href="<?php the_permalink();?>"><?php echo $nail; ?></a></div>
+	<?php endif;?>
+	<div class="heading">
+		<!-- <div class="icon"></div> -->
+		<h1><a href="<?php the_permalink();?>"><u><?php the_title();?></u></a></h1>
+	
+	<div class="meta">
+        <p class="byline"><?php the_author();?> published <a href="<?php the_permalink();?>"><?php echo _lean_time_ago();?></a> in <?php the_category(', ') ?>. 
+
+
+<?php the_tags() ?>
+	</p>
+			<div class="comments-bubble"><?php
+				if (empty($post->post_password)) {
+					comments_popup_link(
+					__('<i class="fa fa-comment-o"></i> 0'), 
+					__('<i class="fa fa-comment-o"></i> 1'), 
+					__('<i class="fa fa-comment-o"></i> %'), 
+					'comments-link', 
+					__(' ', 'lean') );
+				}else{
+					echo '<i class="fa fa-lock"></i>';
+				}
+				?>
+				</div>
+		</div>
+	</div>
+
+
+
+
+	<div class="entry">
+          
+	<?php 
+
+	if (! is_home() ) {
+	   the_content();
+	}
+	?>
+
+	</div>
+
+
+
+
+
+	<?php wp_link_pages( array( 
+		'before' => '<div class="pagination"><span>' . __( 'Pages:', 'slim' ) . '</span>',
+		'after' => '</div>' ) ); ?>
+
+
+
+</div>
+
+<?php comments_template();?>
+
+<?php endwhile; else: ?>
+	<p>No posts found</p>
+<?php endif;?>
+	<div class="pagination"><?php LeanTheme::paginavi();?></div> 
+
+	</div><!-- #content -->
+
+
+
+<?php get_footer(); ?>
