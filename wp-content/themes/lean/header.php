@@ -53,7 +53,7 @@
         <li><a style="font-family: 'Titillium Web', sans-serif;font-size:15px"  href="http://www.trueangle.org/" > <span style="font-weight:700;font-size:15px" aria-hidden="true"></span><b>T</b></a></li>
         <li><a class="menutypo"  href=""><span  style="font-weight:700;font-size:15px" class="glyphicon  glyphicon-heart-empty" aria-hidden="true"></span> ABOUT</a></li>
         <li class="dropdown">
-          <a style="font-family: 'Titillium Web', sans-serif;font-size:14px" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span style="font-weight:700;font-size:17px" class="glyphicon  glyphicon-blackboard" aria-hidden="true"></span> DESIGN<span class="caret"></span></a>
+          <a class="menutypo" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span style="font-weight:700;font-size:17px" class="glyphicon  glyphicon-blackboard" aria-hidden="true"></span> DESIGN<span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a class="menutypo" href="http://www.trueangle.org/web-and-graphics/">Web and Graphics</a></li>
             <li><a class="menutypo" href="http://www.trueangle.org/interaction-and-game/">Interaction and Game</a></li>
@@ -75,21 +75,21 @@
         <button type="submit" class="btn btn-default">Submit</button>
          </form> -->
       <ul class="nav navbar-nav navbar-left">
-        <li><a style="font-family: 'Titillium Web', sans-serif;font-size:14px"  href=""><span style="font-weight:700;font-size:17px"  class="glyphicon  glyphicon-plane" aria-hidden="tr\
+        <li><a class="menutypo"  href=""><span style="font-weight:700;font-size:17px"  class="glyphicon  glyphicon-plane" aria-hidden="tr\
 ue"></span> CONTRIBUTE</a></li>
         <li class="dropdown">
-          <a style="font-family: 'Titillium Web', sans-serif;font-size:14px" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span style="font-weight:700;font-size:15px" class="glyphicon  glyphicon-book" aria-hidden="true"></span> TRUEANGLE  DESIGN <span class="caret"></span></a>
+          <a class="menutypo"  href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span style="font-weight:700;font-size:15px" class="glyphicon  glyphicon-book" aria-hidden="true"></span> TRUEANGLE  DESIGN <span class="caret"></span></a>
           <ul class="dropdown-menu">
                 <li><a class="menutypo" href="http://www.trueangle.org/plan">DESIGN DOCUMENTS</a></li>
     <!--        <li role="separator" class="divider"></li> -->
     
           </ul>
         </li>
-<li><a style="font-family: 'Titillium Web', sans-serif;font-size:14px"  href=""><span style="font-weight:700;font-size:15px" class="glyphicon  glyphicon-download" aria-hidden="tr\
+<li><a class="menutypo" href=""><span style="font-weight:700;font-size:15px" class="glyphicon  glyphicon-download" aria-hidden="tr\
 ue"></span> DOWNLOAD</a></li>
       </ul>
 <ul class="nav navbar-nav navbar-right">
-  <li><button  type="button" class="btn btn-default navbar-btn">CONTACT</button> </li>
+  <li><button class="menutypo"  type="button" class="btn btn-default navbar-btn">CONTACT</button> </li>
   <li>&nbsp;&nbsp;</li>
 <!--  <li><img height="30" width="30"  src="../../../files/logo/bwlogo.png"></img> </li> -->
 </ul>
