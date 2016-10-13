@@ -1215,6 +1215,6 @@ input::-moz-placeholder {
     
 }
 
-.home .entry-featured {
+img .entry {
     display:none;
 }
