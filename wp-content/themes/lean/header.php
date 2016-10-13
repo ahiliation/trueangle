@@ -17,6 +17,7 @@
 <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:100" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Bungee+Inline" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Mirza" rel="stylesheet">
 
 
 
