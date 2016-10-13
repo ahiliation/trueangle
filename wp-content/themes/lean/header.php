@@ -15,6 +15,7 @@
 <link href="https://fonts.googleapis.com/css?family=Slabo" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Titillium+Web:200,300,400" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:100" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Bungee+Inline" rel="stylesheet">
 
 
 
@@ -54,13 +55,13 @@
         <li class="dropdown">
           <a style="font-family: 'Titillium Web', sans-serif;font-size:14px" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span style="font-weight:700;font-size:17px" class="glyphicon  glyphicon-blackboard" aria-hidden="true"></span> DESIGN<span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="http://www.trueangle.org/web-and-graphics/">HTML CSS JavaScript GIMP</a></li>
-            <li><a href="http://www.trueangle.org/interaction-and-game/">JavaScript GIMP BLENDER</a></li>
+            <li><a class="menutypo" href="http://www.trueangle.org/web-and-graphics/">Web and Graphics</a></li>
+            <li><a class="menutypo" href="http://www.trueangle.org/interaction-and-game/">Interaction and Game</a></li>
           <!--  <li><a href="">INTERACTION DESIGN</a></li> -->
           <!--  <li><a href="">GAME DESIGN</a></li> -->
             <!-- <li><a href="http://www.beautifulwork.org/ui">USER INTERFACE</a></li> -->
             <!-- <li role="separator" class="divider"></li> -->
-            <li><a href="http://www.trueangle.org/reader/">READER</a></li>
+            <li><a class="menutypo" href="http://www.trueangle.org/reader/">READER</a></li>
           </ul>
         </li>
       </ul>
