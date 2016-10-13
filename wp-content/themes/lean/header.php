@@ -60,7 +60,7 @@
             <li><a href="">GAME</a></li>
             <!-- <li><a href="http://www.beautifulwork.org/ui">USER INTERFACE</a></li> -->
             <!-- <li role="separator" class="divider"></li> -->
-           <!- <li><a href="">READER</a></li> ->
+            <li><a href="">READER</a></li>
           </ul>
         </li>
       </ul>
