@@ -89,7 +89,7 @@ ue"></span> CONTRIBUTE</a></li>
 ue"></span> DOWNLOAD</a></li>
       </ul>
 <ul class="nav navbar-nav navbar-right">
-  <li><button class="menutypo"  type="button" class="btn btn-default navbar-btn">CONTACT</button> </li>
+  <li><button  type="button" class="btn btn-default navbar-btn">CONTACT</button> </li>
   <li>&nbsp;&nbsp;</li>
 <!--  <li><img height="30" width="30"  src="../../../files/logo/bwlogo.png"></img> </li> -->
 </ul>
