@@ -80,7 +80,7 @@ ue"></span> CONTRIBUTE</a></li>
         <li class="dropdown">
           <a style="font-family: 'Titillium Web', sans-serif;font-size:14px" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span style="font-weight:700;font-size:15px" class="glyphicon  glyphicon-book" aria-hidden="true"></span> TRUEANGLE  DESIGN <span class="caret"></span></a>
           <ul class="dropdown-menu">
-                <li><a href="http://www.trueangle.org/plan">DESIGN DOCUMENTS</a></li>
+                <li><a class="menutypo" href="http://www.trueangle.org/plan">DESIGN DOCUMENTS</a></li>
     <!--        <li role="separator" class="divider"></li> -->
     
           </ul>
