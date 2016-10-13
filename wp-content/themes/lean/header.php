@@ -54,8 +54,8 @@
         <li class="dropdown">
           <a style="font-family: 'Titillium Web', sans-serif;font-size:14px" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span style="font-weight:700;font-size:17px" class="glyphicon  glyphicon-blackboard" aria-hidden="true"></span> DESIGN<span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="">WEB and GRAPHICS</a></li>
-            <li><a href="">INTERACTION and GAME</a></li>
+            <li><a href="">WEB AND GRAPHICS</a></li>
+            <li><a href="">INTERACTION AND GAME</a></li>
           <!--  <li><a href="">INTERACTION DESIGN</a></li> -->
           <!--  <li><a href="">GAME DESIGN</a></li> -->
             <!-- <li><a href="http://www.beautifulwork.org/ui">USER INTERFACE</a></li> -->
