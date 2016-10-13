@@ -31,8 +31,8 @@ echo '<br>';
 
 	<div> <!-- content -->
 
-<!-- <?php if(have_posts()): while(have_posts()): the_post(); 
-	$nail = get_the_post_thumbnail( get_the_ID(), '-lean-full');?> -->
+  <?php if(have_posts()): while(have_posts()): the_post(); 
+	$nail = get_the_post_thumbnail( get_the_ID(), '-lean-full');?> 
 	
 
      <div id="post-<?php the_ID();?>" <?php echo post_class();?>>
