@@ -2,17 +2,16 @@
 # This file is distributed under the same license as the Pictorico package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2014-06-01 17:39:35+0000\n"
+"PO-Revision-Date: 2014-08-06 03:41:26+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : 4;\n"
-"X-Generator: GlotPress/0.1\n"
+"X-Generator: GlotPress/1.0-alpha-1100\n"
 "Project-Id-Version: Pictorico\n"
 
-msgid "https://wordpress.com/themes/"
-msgstr ""
-
+#. Description of the plugin/theme
+#: wp-content/themes/pub/pictorico/style.css
 msgid "A single-column, grid-based portfolio theme with large featured images and a post slider, perfect for photoblogging or a portfolio site."
 msgstr "Téama taispeána saothair eangach aoncholúin, íomhánna móra ardaithe, sleamhnán alt, feilteach do shuíomh ceamaradóireachta nó do thaispeántas saothair."
 
@@ -34,14 +33,6 @@ msgstr "<span class=\"posted-on\">%1$s</span>"
 msgid "Search Results for: %s"
 msgstr "Torthaí ar: %s"
 
-#: inc/template-tags.php:25
-msgid "<span class=\"meta-nav\"></span> Older posts"
-msgstr ""
-
-#: inc/template-tags.php:29
-msgid "Newer posts <span class=\"meta-nav\"></span>"
-msgstr ""
-
 #: inc/template-tags.php:52
 msgid "Post navigation"
 msgstr "Treoraíocht alt"
@@ -58,12 +49,18 @@ msgstr "Leathanach %s"
 msgid "Skip to content"
 msgstr "Beir go dtí an t-alt féin mé"
 
-#: functions.php:157
+#. translators: If there are characters in your language that are not supported
+#. by Open Sans Condensed, translate this to 'off'. Do not translate into
+#. your own language.
+#: functions.php:154
 msgctxt "Open Sans Condensed font: on or off"
 msgid "on"
 msgstr "on"
 
-#: functions.php:166
+#. translators: If there are characters in your language that are not supported
+#. by PT Serif, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:163
 msgctxt "PT Serif font: on or off"
 msgid "on"
 msgstr "on"
@@ -109,10 +106,6 @@ msgid "% Comments"
 msgstr "Freagraí: %"
 
 #: content.php:58
-msgid "1 Comment"
-msgstr ""
-
-#: content.php:58
 msgid "Leave a comment"
 msgstr "Freagra"
 
@@ -144,6 +137,7 @@ msgstr "Sábháil an <a href=\"%3$s\" rel=\"bookmark\">buan-nasc</a>."
 msgid "This entry was posted in %1$s and tagged %2$s. Bookmark the <a href=\"%3$s\" rel=\"bookmark\">permalink</a>."
 msgstr "Ranganna: %1$s. Clibeanna: %2$s. Sábháil an <a href=\"%3$s\" rel=\"bookmark\">buan-nasc</a>."
 
+#. translators: used between list items, there is a space after the comma
 #: content-single.php:47 content-single.php:50 content.php:38 content.php:48
 msgid ", "
 msgstr ", "
@@ -172,8 +166,8 @@ msgstr "Gan Toradh"
 msgid "All %s posts"
 msgstr "Na %s alt uile"
 
-#: content-featured.php:36 content-home.php:39 content-page.php:38
-#: content-single.php:78 content.php:61
+#: content-featured.php:36 content-home.php:50 content-page.php:38
+#: content-single.php:78 content.php:61 image.php:79
 msgid "Edit"
 msgstr "Eagar"
 

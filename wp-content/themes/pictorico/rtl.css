@@ -35,8 +35,6 @@ li > ol {
 
 /* Text meant only for screen readers */
 
-.screen-reader-text:hover,
-.screen-reader-text:active,
 .screen-reader-text:focus {
 	right: 24px;
 	left: auto;
@@ -202,6 +200,8 @@ blockquote cite {
 
 .main-navigation ul ul {
 	float: right;
+	padding-right: 0;
+	padding-left: 15px;
 	text-align: right;
 	right: 0;
 	left: auto;
@@ -272,6 +272,11 @@ blockquote cite {
 		padding-left: 0;
 	}
 
+	.main-navigation ul ul {
+		padding-right: 0;
+		padding-left: 0;
+	}
+
 }
 
 .entry-thumbnail,
@@ -280,20 +285,20 @@ blockquote cite {
 	left: auto;
 }
 
-.home .site-content .entry-thumbnail,
+.blog .site-content .entry-thumbnail,
 .archive .site-content .entry-thumbnail,
 .search .site-content .entry-thumbnail {
 	right: 0;
 	left: auto;
 }
 
-.home .site-content .hentry,
+.blog .site-content .hentry,
 .archive .site-content .hentry,
 .search .site-content .hentry {
 	float: right;
 }
 
-.home .site-content .hentry:hover .entry-header,
+.blog .site-content .hentry:hover .entry-header,
 .archive .site-content .hentry:hover .entry-header,
 .search .site-content .hentry:hover .entry-header {
 	right: 0;
@@ -303,7 +308,7 @@ blockquote cite {
 	left: auto;
 }
 
-.home .site-content .entry-header,
+.blog .site-content .entry-header,
 .archive .site-content .entry-header,
 .search .site-content .entry-header {
 	right: -100%;
@@ -315,7 +320,7 @@ blockquote cite {
 
 @media screen and (max-width: 885px) {
 
-	.home .site-content .entry-header,
+	.blog .site-content .entry-header,
 	.archive .site-content .entry-header,
 	.search .site-content .entry-header {
 		right: -100%;
@@ -327,27 +332,27 @@ blockquote cite {
 
 }
 
-.home .site-content .entry-title,
+.blog .site-content .entry-title,
 .archive .site-content .entry-title,
 .search .site-content .entry-title {
 	float: right;
 	text-align: right;
 }
 
-.home .site-content .entry-meta,
+.blog .site-content .entry-meta,
 .archive .site-content .entry-meta,
 .search .site-content .entry-meta {
 	float: right;
 	text-align: right;
 }
 
-.home .site-content .entry-format:before,
+.blog .site-content .entry-format:before,
 .archive .site-content .entry-format:before,
 .search .site-content .entry-format:before {
 	float: right;
 }
 
-.home .site-content .format-link .entry-title a:after,
+.blog .site-content .format-link .entry-title a:after,
 .archive .site-content .format-link .entry-title a:after,
 .search .site-content .format-link .entry-title a:after {
 	margin-right: 7px;

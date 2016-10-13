@@ -1,20 +1,32 @@
-# Translation of Pictorico in Japanese
-# This file is distributed under the same license as the Pictorico package.
+# Translation of WordPress.com - Themes - Pictorico in Japanese
+# This file is distributed under the same license as the WordPress.com - Themes - Pictorico package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2014-06-02 08:57:16+0000\n"
+"PO-Revision-Date: 2014-12-02 01:50:50+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: GlotPress/0.1\n"
-"Project-Id-Version: Pictorico\n"
+"X-Generator: GlotPress/2.1.0-alpha\n"
+"Language: ja_JP\n"
+"Project-Id-Version: WordPress.com - Themes - Pictorico\n"
 
-msgid "https://wordpress.com/themes/"
-msgstr ""
+#: image.php:87
+msgid "<span class=\"meta-nav\"></span> Previous Image"
+msgstr "<span class=\"meta-nav\"></span> 前の画像"
 
+#: image.php:88
+msgid "Next Image <span class=\"meta-nav\"></span>"
+msgstr "次の画像 <span class=\"meta-nav\"></span>"
+
+#: image.php:24
+msgid "<span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\" pubdate>%2$s</time></span><span class=\"sep\"> &bull; </span><a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a><span class=\"sep\"> &bull; </span><a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%7$s</a>"
+msgstr "<span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\" pubdate>%2$s</time></span><span class=\"sep\"> &bull; </span><a href=\"%3$s\" title=\"フルサイズ画像へのリンク\">%4$s &times; %5$s</a><span class=\"sep\"> &bull; </span><a href=\"%6$s\" title=\"%7$s へ戻る\" rel=\"gallery\">%7$s</a>"
+
+#. Description of the plugin/theme
+#: wp-content/themes/pub/pictorico/style.css
 msgid "A single-column, grid-based portfolio theme with large featured images and a post slider, perfect for photoblogging or a portfolio site."
-msgstr ""
+msgstr "シングルカラム、グリッドベースのポートフォリオテーマ。大きなアイキャッチ画像や投稿スライダーが含まれており、フォトブログやポートフォリオサイトにぴったりです。"
 
 #: inc/template-tags.php:55
 msgctxt "Previous post link"
@@ -58,12 +70,18 @@ msgstr "ページ %s"
 msgid "Skip to content"
 msgstr "コンテンツへ移動"
 
-#: functions.php:157
+#. translators: If there are characters in your language that are not supported
+#. by Open Sans Condensed, translate this to 'off'. Do not translate into
+#. your own language.
+#: functions.php:154
 msgctxt "Open Sans Condensed font: on or off"
 msgid "on"
 msgstr "on"
 
-#: functions.php:166
+#. translators: If there are characters in your language that are not supported
+#. by PT Serif, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:163
 msgctxt "PT Serif font: on or off"
 msgid "on"
 msgstr "on"
@@ -144,6 +162,7 @@ msgstr "<a href=\"%3$s\" rel=\"bookmark\">パーマリンク</a>をブックマ�
 msgid "This entry was posted in %1$s and tagged %2$s. Bookmark the <a href=\"%3$s\" rel=\"bookmark\">permalink</a>."
 msgstr "カテゴリー: %1$s タグ: %2$s <a href=\"%3$s\" rel=\"bookmark\">パーマリンク</a>"
 
+#. translators: used between list items, there is a space after the comma
 #: content-single.php:47 content-single.php:50 content.php:38 content.php:48
 msgid ", "
 msgstr ", "
@@ -172,8 +191,8 @@ msgstr "見つかりません"
 msgid "All %s posts"
 msgstr "すべての%s投稿"
 
-#: content-featured.php:36 content-home.php:39 content-page.php:38
-#: content-single.php:78 content.php:61
+#: content-featured.php:36 content-home.php:50 content-page.php:38
+#: content-single.php:78 content.php:61 image.php:79
 msgid "Edit"
 msgstr "編集"
 

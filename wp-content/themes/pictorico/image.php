@@ -81,7 +81,7 @@ get_header();
 						</article><!-- #post-<?php the_ID(); ?> -->
 
 						<?php comments_template(); ?>
-						
+
 						<nav id="image-navigation" class="navigation post-navigation site-navigation">
 							<div class="nav-links">
 								<span class="previous-image nav-previous"><?php previous_image_link( false, __( '<span class="meta-nav"></span> Previous Image', 'pictorico' ) ); ?></span>

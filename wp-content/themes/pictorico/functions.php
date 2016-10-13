@@ -33,7 +33,15 @@ function pictorico_setup() {
 	// Add default posts and comments RSS feed links to head.
 	add_theme_support( 'automatic-feed-links' );
 
-	/**
+	/*
+	 * Let WordPress manage the document title.
+	 * By adding theme support, we declare that this theme does not use a
+	 * hard-coded <title> tag in the document head, and expect WordPress to
+	 * provide it for us.
+	 */
+	add_theme_support( 'title-tag' );
+
+	/*
 	 * Editor styles
 	 */
 	add_editor_style( 'editor-style.css' );
@@ -148,15 +156,12 @@ add_action( 'wp_enqueue_scripts', 'pictorico_scripts' );
  * Register Google Fonts
  */
 function pictorico_google_fonts() {
-
-	$protocol = is_ssl() ? 'https' : 'http';
-
 	/*	translators: If there are characters in your language that are not supported
 		by Open Sans Condensed, translate this to 'off'. Do not translate into your own language. */
 
 	if ( 'off' !== _x( 'on', 'Open Sans Condensed font: on or off', 'pictorico' ) ) {
 
-		wp_register_style( 'pictorico-open-sans-condensed', "$protocol://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700&subset=latin,latin-ext" );
+		wp_register_style( 'pictorico-open-sans-condensed', "https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700&subset=latin,latin-ext" );
 
 	}
 
@@ -165,7 +170,7 @@ function pictorico_google_fonts() {
 
 	if ( 'off' !== _x( 'on', 'PT Serif font: on or off', 'pictorico' ) ) {
 
-		wp_register_style( 'pictorico-pt-serif', "$protocol://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic,700italic" );
+		wp_register_style( 'pictorico-pt-serif', "https://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic,700italic" );
 
 	}
 
@@ -210,3 +215,10 @@ require get_template_directory() . '/inc/customizer.php';
  * Load Jetpack compatibility file.
  */
 require get_template_directory() . '/inc/jetpack.php';
+
+
+
+/**
+ * Load plugin enhancement file to display admin notices.
+ */
+require get_template_directory() . '/inc/plugin-enhancements.php';

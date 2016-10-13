@@ -1,24 +1,16 @@
-/* Theme Name: Pictorico
- * Theme URI: https://wordpress.com/themes/pictorico/
- * Author: WordPress.com
- * Author URI: https://wordpress.com/themes/
- * Description: A single-column, grid-based portfolio theme with large featured images and a post slider, perfect for photoblogging or a portfolio site.
- * Version: 1.07
- * License: GNU General Public License v2 or later
- * License URI: http://www.gnu.org/licenses/gpl-2.0.html
- * Text Domain: pictorico
- * Domain Path: /languages/
- * Tags: black, blue, dark, one-column, fixed-layout, responsive-layout, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, featured-image-header, post-formats, rtl-language-support, sticky-post, translation-ready
- *
- * This theme, like WordPress, is licensed under the GPL.
- * Use it to make something cool, have fun, and share what you've learned with others.
- *
- * Pictorico is based on Underscores http://underscores.me/, (C) 2012-2014 Automattic, Inc.
- *
- * Resetting and rebuilding styles have been helped along thanks to the fine work of
- * Eric Meyer http://meyerweb.com/eric/tools/css/reset/index.html
- * along with Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
- * and Blueprint http://www.blueprintcss.org/ */
+/*
+Theme Name: Pictorico
+Theme URI: https://wordpress.com/themes/pictorico/
+Description: A single-column, grid-based portfolio theme with large featured images and a post slider, perfect for photoblogging or a portfolio site.
+Version: 1.09.4
+Author: Automattic
+Author URI: https://wordpress.com/themes/
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: pictorico
+Tags: custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-image-header, featured-images, one-column, photography, portfolio, post-formats, rtl-language-support, sticky-post, translation-ready
+*/
+
 /* =Reset
 -------------------------------------------------------------- */
 html, body, div, span, applet, object, iframe,
@@ -126,7 +118,10 @@ html {
   font-size: 16px;
   line-height: 1.5em;
 }
-
+body {
+  -ms-word-wrap: break-word;
+  word-wrap: break-word;
+}
 body,
 button,
 input,
@@ -298,8 +293,6 @@ img {
   left: -1000em;
 }
 
-.screen-reader-text:hover,
-.screen-reader-text:active,
 .screen-reader-text:focus {
   background-color: #fff;
   border: 1px solid #000;
@@ -658,6 +651,7 @@ blockquote.aligncenter.pull {
 h1 {
   font-family: "Open Sans Condensed", Helvetica, Arial, sans-serif;
   font-size: 62px;
+  line-height: 1.21;
   font-weight: bold;
   margin: 30px 0;
   text-transform: uppercase;
@@ -666,6 +660,7 @@ h1 {
 h2 {
   font-family: "Open Sans Condensed", Helvetica, Arial, sans-serif;
   font-size: 37px;
+  line-height: 1.22;
   font-weight: bold;
   margin: 30px 0;
   text-transform: uppercase;
@@ -674,6 +669,7 @@ h2 {
 h3 {
   font-family: "Open Sans Condensed", Helvetica, Arial, sans-serif;
   font-size: 25px;
+  line-height: 1.2;
   font-weight: bold;
   margin: 30px 0;
   text-transform: uppercase;
@@ -682,6 +678,7 @@ h3 {
 h4 {
   font-family: "Open Sans Condensed", Helvetica, Arial, sans-serif;
   font-size: 20px;
+  line-height: 1.5;
   font-weight: bold;
   margin: 30px 0;
   text-transform: uppercase;
@@ -690,6 +687,7 @@ h4 {
 h5 {
   font-family: "Open Sans Condensed", Helvetica, Arial, sans-serif;
   font-size: 20px;
+  line-height: 1.5;
   font-weight: bold;
   margin: 30px 0;
   text-transform: uppercase;
@@ -698,6 +696,7 @@ h5 {
 h6 {
   font-family: "Open Sans Condensed", Helvetica, Arial, sans-serif;
   font-size: 15px;
+  line-height: 2;
   font-weight: bold;
   margin: 30px 0;
   text-transform: uppercase;
@@ -925,7 +924,7 @@ abbr, acronym {
 }
 
 mark, ins {
-  background: fff9c0;
+  background: #fff9c0;
   text-decoration: none;
 }
 
@@ -1083,6 +1082,7 @@ a:hover, a:focus, a:active {
 /* =Header */
 .site-header {
   background: white;
+  position: relative;
 }
 
 .site-header-inner:before,
@@ -1192,8 +1192,10 @@ a:hover, a:focus, a:active {
 @media screen and (max-width: 885px) {
   .main-navigation {
     border: 0;
-    float: none;
+    float: left;
     max-width: 100%;
+    width: 100%;
+    position: static;
   }
 }
 .main-navigation ul {
@@ -1215,7 +1217,8 @@ a:hover, a:focus, a:active {
 .main-navigation ul li:hover > a {
   color: #07a1f2;
 }
-.main-navigation ul li:hover > ul {
+.main-navigation ul li:hover > ul,
+.main-navigation ul li.focus > ul {
   display: block;
   opacity: 1;
   visibility: visible;
@@ -1229,6 +1232,7 @@ a:hover, a:focus, a:active {
   color: #07a1f2;
 }
 .main-navigation ul ul {
+  padding-right: 15px;
   background: #444444;
   box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
   display: none;
@@ -1244,6 +1248,11 @@ a:hover, a:focus, a:active {
   left: 0;
   visibility: hidden;
   z-index: 99999;
+}
+@media screen and (max-width: 885px) {
+  .main-navigation ul ul {
+    padding-right: 0;
+  }
 }
 .main-navigation ul ul:hover > a {
   color: #07a1f2;
@@ -1795,7 +1804,10 @@ a:hover, a:focus, a:active {
 .search .site-content .hentry.sticky .entry-format:before {
   content: "\f308";
 }
-
+.portfolio-featured-image img {
+	display: block;
+	margin: 0 auto;
+}
 .page-links {
   clear: both;
   color: #444444;
@@ -1957,9 +1969,10 @@ a:hover, a:focus, a:active {
 }
 
 .gallery-item {
-  float: left;
+  display: inline-block;
   margin-bottom: 30px;
   text-align: center;
+  vertical-align: top;
 }
 .gallery-item img {
   border: 1px solid #e7f2f8;
@@ -2359,6 +2372,11 @@ object {
 .widget li {
   list-style: none;
   margin: 0;
+}
+
+.widget_pages li li,
+.widget_nav_menu li li {
+  padding-left: 15px;
 }
 
 .widget-title {
