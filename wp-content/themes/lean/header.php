@@ -9,7 +9,6 @@
 <link href='https://fonts.googleapis.com/css?family=Open+Sans:600' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Ubuntu:500' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Titillium+Web' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Nunito' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Cantarell:700' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
 <link href="https://fonts.googleapis.com/css?family=Slabo" rel="stylesheet">
@@ -18,6 +17,7 @@
 <link href="https://fonts.googleapis.com/css?family=Bungee+Inline" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Mirza" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
 
 
 

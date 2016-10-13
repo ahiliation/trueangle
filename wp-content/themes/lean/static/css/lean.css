@@ -1211,6 +1211,8 @@ input::-moz-placeholder {
 
 .menutypo {
     /*    font-family: 'Cabin Sketch', cursive; */
-    font-family: 'Mirza', cursive;
+   /*  font-family: 'Mirza', cursive; */
+    font-family: 'Nunito', sans-serif;
     font-size: 18px;
+    
 }
