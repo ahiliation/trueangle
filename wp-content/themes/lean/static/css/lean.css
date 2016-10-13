@@ -1215,6 +1215,8 @@ input::-moz-placeholder {
     
 }
 
-img .entry {
+img .post .entry {
+
     display:none;
+    
 }
