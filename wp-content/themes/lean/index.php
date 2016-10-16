@@ -357,7 +357,7 @@ echo '</span>';
      echo  "Data from GitHub: ";
      echo '<br>';
      echo '<span style="color:#c00;font-size:100%">';
-     echo $ar[1]->commit->message;
+     echo $ar[0]->commit->message;
      echo '</span>';
 //     echo "]";
      echo '</span>';
