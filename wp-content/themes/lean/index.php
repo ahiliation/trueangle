@@ -347,7 +347,7 @@ echo '</span>';
     
 
     $curl = curl_init();
-    curl_setopt ($curl, CURLOPT_URL, "https://api.github.com/repos/ahiliation/beautifulwork/commits");
+    curl_setopt ($curl, CURLOPT_URL, "https://api.github.com/repos/ahiliation/trueangle/commits");
     curl_setopt($curl, CURLOPT_USERAGENT, 'PHP with php5-curl');
     curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
     $result = curl_exec($curl);
@@ -357,7 +357,7 @@ echo '</span>';
      echo  "Data from GitHub: ";
      echo '<br>';
      echo '<span style="color:#c00;font-size:100%">';
-     echo $ar[0]->commit->message;
+     echo $ar[1]->commit->message;
      echo '</span>';
 //     echo "]";
      echo '</span>';
