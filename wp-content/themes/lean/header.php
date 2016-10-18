@@ -58,7 +58,7 @@
           <a class="menutypo" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span style="font-weight:700;font-size:17px" class="glyphicon  glyphicon-blackboard" aria-hidden="true"></span> DESIGN<span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a class="menutypo" href="http://www.trueangle.org/web-and-graphics/">WEB AND GRAPHICS</a></li>
-            <li><a class="menutypo" href="http://www.trueangle.org/interaction-and-game/">INTERACTION AND GAME</a></li>
+          <!--  <li><a class="menutypo" href="http://www.trueangle.org/interaction-and-game/">INTERACTION AND GAME</a></li> -->
           <!--  <li><a href="">INTERACTION DESIGN</a></li> -->
           <!--  <li><a href="">GAME DESIGN</a></li> -->
             <!-- <li><a href="http://www.beautifulwork.org/ui">USER INTERFACE</a></li> -->
