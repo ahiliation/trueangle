@@ -1,6 +1,7 @@
 ---
 layout: post
+title: St. Ambrose of Milan, Bishop, Writer, Doctor
 ---
 
-![title)] Prayer That We May Seek God and Find Him
+# Prayer That We May Seek God and Find Him
 
