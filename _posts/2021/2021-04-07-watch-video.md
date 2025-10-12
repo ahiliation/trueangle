@@ -6,7 +6,7 @@ title: The Title of the Page but stripped
 # Let's Watch a Video
 
 
-{% include video source="youtube" id="tsQPxIaTg0c" %}
+
 
 
 <!--
