@@ -1,6 +1,6 @@
 ---
 layout: post
-title: God's Gift of romance..
+title: God's gift of romance
 ---
 
 <h4>Tujh Mein Rab Dikhta Hai, Yaara Main Kya Karoon</h4>
