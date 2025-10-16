@@ -17,5 +17,4 @@ conn.close
 $python3  fdb.py
 <mysql.connector.connection_cext.CMySQLConnection object at 0x7f143fc84790>
 $
-
 </pre>
