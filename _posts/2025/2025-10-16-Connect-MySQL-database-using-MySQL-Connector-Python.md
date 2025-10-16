@@ -3,7 +3,7 @@ layout: post
 title: Connect MySQL database using MySQL-Connector Python  
 ---
 
-<pre>
+<code>
 $cat fdb.py
 import mysql.connector
 
@@ -17,4 +17,4 @@ conn.close
 $python3  fdb.py
 <mysql.connector.connection_cext.CMySQLConnection object at 0x7f143fc84790>
 $
-</pre>
+</code>
