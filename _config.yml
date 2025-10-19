@@ -74,3 +74,10 @@ exclude:
   - README.*
   - server
   - vendor/
+
+mysql:
+  enabled: true
+  host: "localhost"
+  username: "jeffrin"
+  password: "7cleartrip"
+  database: "wordpress"
