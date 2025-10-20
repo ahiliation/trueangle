@@ -5,3 +5,5 @@ gem 'nokogiri'
 gem "jekyll-import"
 gem "sequel"
 gem "unidecode"
+gem "jekyll-sqlite"
+

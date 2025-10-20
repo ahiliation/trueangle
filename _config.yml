@@ -75,9 +75,18 @@ exclude:
   - server
   - vendor/
 
+plugins:
+  - jekyll-mysql-generator # Use the filename without the .rb extension
+
+
 mysql:
   enabled: true
   host: "localhost"
   username: "jeffrin"
   password: "7cleartrip"
   database: "wordpress"
+
+collections:
+  db_collection:
+    output: true
+    
